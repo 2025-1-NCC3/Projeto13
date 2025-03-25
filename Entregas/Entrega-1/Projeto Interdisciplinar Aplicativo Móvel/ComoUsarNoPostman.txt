@@ -1,0 +1,12 @@
+Para usar no postman
+Cadastrar usuário endpoit: /register
+Para Login endpoint: /login
+Para testar api endpoint: /api/testar
+
+headers: Content-Type: application/json
+
+Exemplo para login:
+{
+   "email": "fazbear@gmail.com",
+   "senha": "homemroxo"
+}
