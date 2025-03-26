@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+Para visualizar o diagrama baixe o arquivo e faça o upload no Draw.io
+=======
+Para visualizar o diagrama baixe o arquivo e faça o upload no Draw.io
+>>>>>>> 2418d41e03bb159742d6fc3bf6307eeef6135369
