@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores do projeto -->
+    <color name="background">#09091A</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="botaoPressionado">#5E5E8C</color>
+    <color name="botaoNPressionado">#444466</color>
+    <color name="textBranco">#FFFFFF</color>
+    <color name="textCinza">#87FFFFFF</color>
+    <color name="botaoPadrao">#222233</color>
+    <color name="divider"> #5E5E8C </color>
+    <color name="perigo">#BA0000</color>
+</resources>

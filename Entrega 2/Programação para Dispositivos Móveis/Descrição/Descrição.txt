@@ -1,0 +1,3 @@
+Uber Security é um aplicativo voltado à segurança de passageiros e motoristas durante viagens.
+Com ele, o usuário pode acionar rapidamente a polícia ou registrar o acontecido por meio de fotos em situações de perigo,
+garantindo uma resposta rápida e eficiente em momentos críticos.

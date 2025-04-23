@@ -1,0 +1,25 @@
+Nome do aplicativo: Uber Security
+Desenvolvedor: CCOMP - 3 FECAP
+Categoria: Segurança
+Classificação indicativa: Livre
+Versão atual: BETA
+Idioma: Português (Brasil)
+Última atualização: 21 de abril de 2025
+Permissões:
+
+-Acesso à câmera
+
+-Acesso à localização em tempo real
+
+-Acesso à internet
+
+
+Recursos principais:
+
+-Botão de emergência para acionar a polícia com um toque
+
+-Captura rápida de fotos em situações suspeitas
+
+-Envio de localização
+
+Interface simples e intuitiva
