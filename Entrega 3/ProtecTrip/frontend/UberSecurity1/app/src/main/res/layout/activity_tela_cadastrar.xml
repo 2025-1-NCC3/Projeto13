@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="br.fecap.pi.ubersecurity.tela_cadastrar">
+
+    <ImageView
+        android:id="@+id/imageViewAvatar"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+
+        app:layout_constraintBottom_toTopOf="@+id/campoUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CadastrarTEXT"
+        app:layout_constraintVertical_bias="0.512"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnCam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/botaoPadrao"
+        android:text="Foto"
+        app:layout_constraintBottom_toTopOf="@+id/campoUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CadastrarTEXT"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <Button
+        android:id="@+id/btn_cadastrar"
+        android:layout_width="201dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="104dp"
+        android:backgroundTint="@color/botaoPadrao"
+        android:text="Cadastrar"
+        android:textStyle="bold"
+        app:cornerRadius="25px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/campoSenha"
+        android:layout_width="339dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#FFF"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:textColor="@color/textCinza"
+        android:textColorHint="@color/textCinza"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoUsuario" />
+
+    <EditText
+        android:id="@+id/campoUsuario"
+        android:layout_width="339dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FFF"
+        android:ems="10"
+        android:hint="Usuário"
+        android:inputType="text"
+        android:textColor="@color/textCinza"
+        android:textColorHint="@color/textCinza"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486" />
+
+    <EditText
+        android:id="@+id/campoCPF"
+        android:layout_width="339dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#FFF"
+        android:ems="10"
+        android:hint="CPF"
+        android:inputType="number"
+        android:textColor="@color/textCinza"
+        android:textColorHint="@color/textCinza"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoSenha" />
+
+    <EditText
+        android:id="@+id/campoCPF2"
+        android:layout_width="339dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#FFF"
+        android:ems="10"
+        android:hint="Número de telefone"
+        android:inputType="number"
+        android:textColor="@color/textCinza"
+        android:textColorHint="@color/textCinza"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoCPF" />
+
+    <Button
+        android:id="@+id/btn_passageiro"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/transparent"
+        android:text="Passageiro"
+        android:textAlignment="textEnd"
+        android:textColor="@color/botaoPressionado"
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btn_motorista"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/transparent"
+        android:text="Motorista"
+        android:textAlignment="textStart"
+        android:textColor="@color/botaoNPressionado"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <TextView
+        android:id="@+id/CadastrarTEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem Vindo!"
+        android:textColor="@color/textBranco"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/campoUsuario"
+        app:layout_constraintEnd_toEndOf="@+id/campoUsuario"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/campoUsuario"
+        app:layout_constraintTop_toTopOf="@+id/divider2"
+        app:layout_constraintVertical_bias="0.409" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@color/divider"
+        app:cornerRadius="10000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="3dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/divider"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_passageiro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewAvatarEX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/campoUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/CadastrarTEXT"
+        tools:layout_editor_absoluteX="47dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
